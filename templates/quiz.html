@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz - Dessert Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Hilangkan @apply dan gunakan kelas biasa */
+      label span {
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s,
+          font-weight 0.3s;
+        display: block;
+        border-radius: 0.5rem; /* rounded-lg */
+        border: 1px solid #fcd34d; /* border-yellow-300 */
+        padding: 0.75rem; /* p-3 */
+      }
+      label:hover span {
+        background-color: #fef3c7; /* bg-yellow-200 */
+        cursor: pointer;
+      }
+      input[type="radio"]:checked + span {
+        background-color: #fde68a; /* bg-yellow-300 */
+        border-color: #fbbf24; /* border-yellow-500 */
+        color: #78350f; /* text-yellow-900 */
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body class="bg-yellow-50 p-6 min-h-screen flex items-center justify-center">
+    <form
+      action="/result"
+      method="POST"
+      class="max-w-xl w-full mx-auto space-y-10 bg-yellow-100 p-8 rounded-3xl shadow-lg border border-yellow-300">
+      <h1
+        class="text-4xl font-extrabold text-yellow-800 mb-6 text-center select-none">
+        🍰 Dessert Personality Quiz
+      </h1>
+
+      <div>
+        <p class="text-xl font-semibold mb-4">
+          1. Saat kamu lagi di keramaian, kamu biasanya...
+        </p>
+        <div class="space-y-3">
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q1" value="A" required class="hidden" />
+            <span class="block select-none"
+              >A. Mengamati dan mikir sendiri</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q1" value="B" class="hidden" />
+            <span class="block select-none"
+              >B. Jadi pusat perhatian tanpa nyoba</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q1" value="C" class="hidden" />
+            <span class="block select-none"
+              >C. Nyari satu dua orang buat ngobrol</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q1" value="D" class="hidden" />
+            <span class="block select-none"
+              >D. Nunggu waktu buat bisa pulang</span
+            >
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-xl font-semibold mb-4">
+          2. Gaya komunikasi kamu lebih ke...
+        </p>
+        <div class="space-y-3">
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q2" value="A" required class="hidden" />
+            <span class="block select-none"
+              >A. Singkat, padat, kadang gak dibales</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q2" value="B" class="hidden" />
+            <span class="block select-none"
+              >B. Ekspresif, banyak emoji dan capslock</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q2" value="C" class="hidden" />
+            <span class="block select-none"
+              >C. Terstruktur, mikir dulu baru jawab</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q2" value="D" class="hidden" />
+            <span class="block select-none">D. Natural, sesuai mood aja</span>
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-xl font-semibold mb-4">
+          3. Cara kamu ngadepin masalah kecil biasanya...
+        </p>
+        <div class="space-y-3">
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q3" value="A" required class="hidden" />
+            <span class="block select-none"
+              >A. Pikirin dalam-dalam walau kelihatan tenang</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q3" value="B" class="hidden" />
+            <span class="block select-none"
+              >B. Curhat ke temen + bikin lelucon dari itu</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q3" value="C" class="hidden" />
+            <span class="block select-none"
+              >C. Handle sendiri, biar cepet selesai</span
+            >
+          </label>
+          <label
+            class="block cursor-pointer rounded-lg border border-yellow-300 p-3 transition">
+            <input type="radio" name="q3" value="D" class="hidden" />
+            <span class="block select-none"
+              >D. Diem dulu, baru pelan-pelan beresin</span
+            >
+          </label>
+        </div>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-full font-semibold text-lg shadow-md transition duration-300 select-none">
+        Lihat Hasil
+      </button>
+    </form>
+  </body>
+</html>
