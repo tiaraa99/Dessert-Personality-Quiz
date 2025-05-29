@@ -33,7 +33,6 @@ Aplikasi ini mencerminkan arsitektur **agen cerdas sederhana**, dengan elemen-el
 * **Environment (Lingkungan)**: Pengguna dan browser tempat aplikasi dijalankan.
 
 ## ⚙️ Teknologi yang Digunakan
-
 - **Python 3**
 - **Flask**
 - HTML/CSS (melalui template Jinja2)
