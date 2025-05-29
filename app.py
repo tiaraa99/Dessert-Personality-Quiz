@@ -18,11 +18,10 @@ character_descriptions = {
     ),
 
     "Strawberry Pop": (
-        "🍓 Strawberry Pop\n"
+        "🍓 Strawberry Pop 🍓\n\n"
         "Kamu adalah orang yang hangat, nyambung sama siapa pun, dan punya vibe yang positif. "
         "Suka ngobrol santai, kadang ngeledek, kadang jadi tempat curhat. "
         "Selalu bisa bikin suasana lebih chill.\n"
-        "“Kalau semua tegang, ya aku yang cairin.”"
     ),
 
     "Dark Choco Deep": (
