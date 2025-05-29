@@ -31,17 +31,15 @@ character_descriptions = {
     ),
 
     "Cookie Crackle": (
-        "🍪 Cookie Crackle\n"
+        "🍪 Cookie Crackle 🍪\n\n"
         "Kamu orangnya spontan, rame, dan suka ngelucu di waktu gak terduga. "
         "Kamu gak suka suasana canggung, jadi selalu jadi penyelamat suasana.\n"
-        "“Aku chaos, tapi chaos yang bisa dicintai.”"
     ),
 
     "Cheesecake Core": (
-        "🍰 Cheesecake Core\n"
+        "🍰 Cheesecake Core 🍰\n\n"
         "Kamu dewasa, stabil, dan keliatan \"wise\" di antara teman-teman. "
         "Gak banyak gaya tapi bisa diandalkan. Gak nyari spotlight, tapi dihargai karena vibe-nya kalem dan elegan.\n"
-        "“Aku gak banyak ngomong, tapi sekali ngomong langsung nancep.”"
     ),
 
     "Coconut Chill": (
