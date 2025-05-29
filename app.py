@@ -43,10 +43,9 @@ character_descriptions = {
     ),
 
     "Coconut Chill": (
-        "🥥 Coconut Chill\n"
+        "🥥 Coconut Chill 🥥\n\n"
         "Kamu itu cuek, santai, dan gak suka drama. "
         "Kamu jalan sesuai mood, gak maksa apa pun, tapi tetep punya kepekaan yang gak banyak orang sadari.\n"
-        "“Lowkey bukan berarti lost, aku cuma gak ribut.”"
     )
 }
 
