@@ -25,10 +25,9 @@ character_descriptions = {
     ),
 
     "Dark Choco Deep": (
-        "🍫 Dark Choco Deep\n"
+        "🍫 Dark Choco Deep 🍫\n\n"
         "Kamu itu overthinker, logis, kadang emosional tapi gak nunjukin. "
         "Suka mikir dalam dan gak suka ngobrol ngalor ngidul. Kalau udah nyaman, bisa intense banget.\n"
-        "“Bikin lucu boleh, tapi deep talk is a must.”"
     ),
 
     "Cookie Crackle": (
