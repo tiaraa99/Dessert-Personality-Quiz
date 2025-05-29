@@ -11,11 +11,10 @@ with open('mapping.json') as f:
 # Deskripsi karakter
 character_descriptions = {
     "Pudding Calm": (
-        "🍮 Pudding Calm\n"
+        "🍮 Pudding Calm 🍮\n\n"
         "Kamu adalah tipe yang reflektif, tenang, kadang keliatan dingin padahal mikir terus. "
         "Kamu suka menyendiri di tengah keramaian dan lebih nyaman jadi observer. "
         "Tapi justru di situlah charm kamu.\n"
-        "“Gue gak ngomong, bukan berarti gue gak mikir.”"
     ),
 
     "Strawberry Pop": (
