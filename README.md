@@ -32,6 +32,13 @@ Aplikasi ini mencerminkan arsitektur **agen cerdas sederhana**, dengan elemen-el
 * **Aktuator**: Tampilan hasil berupa karakter kepribadian.
 * **Environment (Lingkungan)**: Pengguna dan browser tempat aplikasi dijalankan.
 
+## ⚙️ Teknologi yang Digunakan
+
+- **Python 3**
+- **Flask**
+- HTML/CSS (melalui template Jinja2)
+- JSON (untuk pemetaan karakter)
+
 ### 📁 **Struktur File**
 
 * `app.py`: Logika utama aplikasi, rute Flask, dan pemrosesan hasil.
