@@ -35,7 +35,7 @@ Aplikasi ini mencerminkan arsitektur **agen cerdas sederhana**, dengan elemen-el
 ### ⚙️ Teknologi yang Digunakan
 - **Python 3**
 - **Flask**
-- HTML/CSS (melalui template Jinja2)
+- HTML/CSS
 - JSON (untuk pemetaan karakter)
 
 ### 📁 **Struktur File**
