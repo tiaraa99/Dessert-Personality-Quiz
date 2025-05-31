@@ -1,6 +1,6 @@
 ## 🍰 **Dessert Personality Quiz**
 
-**Dessert Personality Quiz** adalah sebuah aplikasi kuis kepribadian berbasis web yang dibuat menggunakan framework **Flask (Python)**. Aplikasi ini mengidentifikasi tipe kepribadian pengguna berdasarkan jawaban mereka terhadap tiga pertanyaan pilihan ganda, lalu mencocokkannya dengan karakter-karakter unik yang diilustrasikan sebagai makanan penutup (dessert).
+**Dessert Personality Quiz** adalah sebuah aplikasi kuis kepribadian berbasis web yang dibuat menggunakan framework **Flask (Python)**. Aplikasi ini mengidentifikasi tipe kepribadian pengguna berdasarkan jawaban mereka terhadap tiga pertanyaan pilihan ganda, lalu mencocokkannya dengan karakter-karakter unik yang diilustrasikan sebagai makanan penutup atau dessert.
 
 ![image](https://github.com/user-attachments/assets/2872ddc4-a31f-4bf1-a3e0-650c425cbc2a)
 ![image](https://github.com/user-attachments/assets/93907a6e-cad5-4ec5-a71d-a37c40293726)
